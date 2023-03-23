@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import dimianni from './assets/dimianni.jpg'
+// import dimianni from './assets/dimianni.jpg'
 // import instagram from './assets/instagram.svg'
 // import linkedin from './assets/linkedin.svg'
 // import github from './assets/github.svg'
@@ -18,7 +18,7 @@ function App() {
       <div className="container mx-auto max-w-2xl">
         <div className="head w-full flex flex-col justify-center items-center">
           <div className="myimg w-24 h-24 rounded-full overflow-hidden mb-4">
-            <img src={dimianni} className="w-full h-auto" alt="Dmytro Anikin. Dimianni." />
+            <img src="/assets/dimianni.jpg" className="w-full h-auto" alt="Dmytro Anikin. Dimianni." />
           </div>
           <div className="name">
             <h1 className='text-xl font-bold'>Dmytro Anikin</h1>
