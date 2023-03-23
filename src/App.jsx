@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import dimianni from './assets/dimianni.jpg'
-import instagram from './assets/instagram.svg'
-import linkedin from './assets/linkedin.svg'
-import github from './assets/github.svg'
-import portfolio from './assets/portfolio.svg'
+// import instagram from './assets/instagram.svg'
+// import linkedin from './assets/linkedin.svg'
+// import github from './assets/github.svg'
+// import portfolio from './assets/portfolio.svg'
 import './App.css'
 import { socials } from './constans/constants'
 
-const icons = [instagram, linkedin, github, portfolio]
-
-console.log(icons[0]);
+// const icons = [instagram, linkedin, github, portfolio]
+// console.log(icons[0]);
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -35,7 +34,7 @@ function App() {
                 <div key={i} className="link mb-4">
                   <a href="#" target="_blank" rel="noopener" className='flex justify-center items-center bg-light-grey rounded px-5 py-4 relative'>
                     <div className="icon absolute top-1/2 -translate-y-2/4 left-2 w-12 h-12">
-                      <img src={`src/assets/${social.icon}`} alt="" className='w-full h-auto object-contain' />
+                      <img src={`/${social.icon}`} alt="" className='w-full h-auto object-contain' />
                     </div>
                     <p className='w-full font-medium text-base text-center'>{social.name}</p>
                   </a>
