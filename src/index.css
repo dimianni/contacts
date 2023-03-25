@@ -3,10 +3,16 @@
 @tailwind utilities;
 /* @import "normalize.css"; */
 /* @import-normalize; */
-.link{
+.link {
   transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
 }
 
-.link:hover{
+.link:hover {
   transform: scale(1.02);
+}
+
+@media screen and (max-width: 1199px) {
+  .link:hover {
+    transform: none;
+  }
 }
