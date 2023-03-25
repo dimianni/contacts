@@ -35,7 +35,7 @@ function App() {
                 socials.map((social, i) => {
                   return (
                     <div key={i} className="link mb-4">
-                      <a href="#" target="_blank" rel="noopener" className='bg-light-grey flex justify-center items-center rounded px-5 py-4 relative'>
+                      <a href={social.link} target="_blank" rel="noopener" className='bg-light-grey flex justify-center items-center rounded px-5 py-4 relative'>
                         <div className="icon absolute top-1/2 -translate-y-2/4 left-2 w-8 h-8">
                           <img src={`assets/${social.icon}`} alt="" className='w-full h-auto object-contain' />
                         </div>
